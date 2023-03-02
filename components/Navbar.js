@@ -16,11 +16,11 @@ export default function Navbar() {
                 About Me
             </Link>
 
-            <Link href="/projects" className={styles.item}>
+            <Link href="#projects" className={styles.item}>
                 Projects
             </Link>
 
-            <Link href="#Resume" className={styles.item}>
+            <Link href="#resume" className={styles.item}>
                 
                 Resume
             </Link>

@@ -15,9 +15,46 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Welcome to my Portfolio!</h1>
+        <h1>Maria Hamilton</h1>
+        
+        <h2>Software Engineer</h2>
+        <Image
+                    src='/pictures/maria.jpeg'
+                    className={styles.avatar}
+                    alt='avatar'
+                    width='250'
+                    height='250'/>
+        <section id='about'>
+        
+          <p>I am a Software Engineer born and raised in Brazil with a thirst for learning. I moved to the US in 2019 as an exchange student in order to improve my English proficiency and experience a new culture. Living abroad, far away from my family and friends was a challenge but it brought me great personal development.</p>
+          <p>The challenges of being a young immigrant woman alone in such a big country made me a problem solver with an amazing ability to work under pressure and be resilient when facing adversity. Being resilient and strong helped me to face the first challenges of learning how to code, my resilience gave me the patience to understand and respect my limits and my thirst for learning gave me the strength to grow my skills. </p>
+          <p>My time as a flight attendant developed my teamwork skills, communication, de-escalate situations and build strong and loyal relationships. Being comfortable in a Team Environment was crucial when learning new technologies. It made me comfortable to ask for help when needed, share my ideas for projects, and listen to other Teammates ideas and solutions. 
+          </p>
 
-        <p>hi 👋 I am Weston</p>
+        </section>
+        <h2>Projects</h2>
+        <section id='projects'>
+          
+          <a href='https://dudahamilton.github.io/Brazil-Memory-Game/' target='_blank'>Brazil-Memory-Game</a>
+          <p> A simple memory game made with HTML, CSS and vanilla JavaScript. It was my first coding project. I learned how to manipulate the DOM and use CSS for styling (and a little bit of functionality) with this project.<a href='/brazil'> Learn More About it</a></p>
+          <a href='https://omdb-project.herokuapp.com/' target='_blank'>Movies For Non-Experts</a>
+          <p> A full stack project made with Node.js, PostGreSQL, Sequelize, Express and EJS. I used the OMDB API and made RESTful routes to make a website where users would be able to search for movies, see more details of the chosen movie, see reviews from other users and be able to write their own reviews.<a href='/movie'> Learn More About it</a></p>
+          <a href='https://sage-pudding-1def3e.netlify.app/' target='_blank'>McFacebook</a>
+          <p>
+          A full stack group project made with MongoDB, Express, React, Node. I Worked with 3 classmates to build a social media like website, where users can create an account, login, post, see other users posts and comment. I was able to have a better understanding of the MERN, work on a Team Environment and practice git workflow.<a href='/mcfacebook'> Learn More About it</a></p>
+
+          
+
+        </section>
+        <h2>Resume</h2>
+        <section id='resume'>
+          
+          <Image
+                    src='/pictures/resume.png'
+                    alt='resume'
+                    width='800'
+                    height='900'/>
+        </section>
       </main>
     </>
   )
