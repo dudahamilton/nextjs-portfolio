@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F9CAAB  ;
+    color: black;
+    
+}
+.icon{
+    margin: 5px;
+}
+.footer{
+    margin:8px;
+}
+
+.item{
+    align-self: flex-start;
+}
+
+.imdb{
+    text-align: center;
+    flex-direction: column;
+    margin:8px;
+}

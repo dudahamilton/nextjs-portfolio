@@ -1,0 +1,30 @@
+/* Here goes the styling for the nav bar */
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F9CAAB  ;
+    height: 86px;
+    width:100%;
+    position:fixed;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+    
+}
+.item{
+    margin:15px;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.maria{
+    margin:15px;
+    padding: 12px;
+    text-decoration: none;
+    color: #db431d;
+    font-size: 30px;
+    font-weight: bold;
+}
