@@ -4,6 +4,20 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const onButtonClick = () => {
+  // using Java Script method to get PDF file
+  fetch('maria.pdf').then(response => {
+      response.blob().then(blob => {
+          // Creating new object of PDF file
+          const fileURL = window.URL.createObjectURL(blob);
+          // Setting various property values
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'maria.pdf';
+          alink.click();
+      })
+  })
+}
 
 export default function Home() {
   return (
@@ -54,7 +68,11 @@ export default function Home() {
                     alt='resume'
                     width='800'
                     height='900'/>
+          
         </section>
+        <button onClick={onButtonClick} className={styles.btn}>
+                    Download Resume
+                </button>
       </main>
     </>
   )

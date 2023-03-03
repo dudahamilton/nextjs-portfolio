@@ -7,22 +7,20 @@
   padding: 6rem;
   min-height: 100vh;
 }
-/* .h2{
-  text-align: center;
-  margin: 30px;
-  color:#db431d;
-  font-size: 30px;
-} */
-
-/* .text{
-  width: 900px;
-  display: flex;
-  margin: 0 auto;
-  font-size: 20px;
-} */
 
 
 .avatar{
   border-radius: 50%;
   
+}
+.btn {
+  background-color: #db431d;
+  padding: 15px;
+  margin: 30px;
+  border: #db431d;
+  border-radius: 5%;
+  justify-content: center;
+  color: white;
+  
+
 }
