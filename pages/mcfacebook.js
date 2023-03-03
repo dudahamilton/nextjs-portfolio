@@ -20,6 +20,7 @@ export default function Project() {
                     <a target="_blank" href='https://sage-pudding-1def3e.netlify.app/'>
                         <button className={styles.btn}>Check Website</button></a>
                 </div>
+                <section>
                 <h2>MVP Goals</h2>
                 <ul>
                     <li>Render a home page that displays blog posts</li>
@@ -45,7 +46,7 @@ We had to deal with a few errors that were a bit tricky, but we were able to ove
                 <p>Looking at the finished product, we don't seem to have any unsolved problems. However, one thing we did not get around to was to limit the amount of posts that would appear on the page so that in the off chance a large number of posts are created, the user doesn't have to endlessly scroll to get to the bottom of the page.</p>
                 <p>Some of the major hurdles we faced was the planning during the beginning of the project. It was difficult to get started on planning the project because we didn't have a central authority figure that acted like a psuedo manager/supervisor. For the first few hours of the project work time during class, we struggled to come up with a solid game plan regarding the direction of the workflow. Once we opened up a Miro board, the planning became easier and more streamlined, and as a result, we were able to start work on the project itself later on in the day. Communication was not a major hurdle for us as each team member was very responsive to messages sent both in Slack and Discord.</p>
             
-                
+                </section>
                 <h2>Wireframes</h2>
                 <Image
                     src='/pictures/domino.png'

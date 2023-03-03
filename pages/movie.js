@@ -18,6 +18,7 @@ export default function Project() {
                     <a target="_blank" href='https://omdb-project.herokuapp.com/'>
                         <button className={styles.btn}>Check Website</button></a>
                 </div>
+                <section>
                 <h2>MVP Goals</h2>
                 <ul>
                     <li>User can create account/login/logout</li>
@@ -38,6 +39,7 @@ export default function Project() {
                 <p>My project has a table of users, comments and movies and also a joint table users_movies. I decided to do a findOrCreate for the comments, so the user could write a review in a movie that was not yet in the database.My routes were built in a way that the user could search for a movie, click in that specific movie to learn more details about it and be able to add a comment to it, edit and delete it (the last two I was not able to finish on time but I will tonight).</p>
                 <h2>Post Project thoughts</h2>
                 <p>I was able to learn a lot during this project. I now have a better understanding about node, express, sql and sequelize. I reviewed a lot of material to be able to put this app together, I have a much better understanding of restful routes, postgres and sequelize. I now feel comfortable working with a sequelize structured db, and feel comfortable working with APIs in an express app. I still want to add favorites</p>
+                </section>
             
                 
                 <h2>Wireframes</h2>
