@@ -1,5 +1,4 @@
-// this is going to be our /about
-// import css module
+
 import styles from "../styles/Projects.module.css"
 import Image from 'next/image'
 
