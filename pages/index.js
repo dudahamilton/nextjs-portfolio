@@ -33,7 +33,7 @@ export default function Home() {
         
         <h2>Software Engineer</h2>
         <Image
-                    src='/pictures/maria.jpeg'
+                    src='/pictures/maria.jpg'
                     className={styles.avatar}
                     alt='avatar'
                     width='250'
